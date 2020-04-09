@@ -3,8 +3,6 @@
 <p align="center">超赞的现代化工具箱</p>
 <p align="center">Awesome modern toolbox WebApp.</p>
 
-> 该分支为开发分支，可能与主分支存在结构或兼容性和功能的差异
-
 ## Development
 
 ```bash
