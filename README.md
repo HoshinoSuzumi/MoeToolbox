@@ -1,22 +1,18 @@
-# MoeToolbox
+<p align="center"><img src="/static/icon.png" alt="Logo" width="128" height="128" style="max-width: 100%;"></p>
+<h1 align="center">Moe Toolbox</h1>
+<p align="center">超赞的现代化工具箱</p>
+<p align="center">Awesome modern toolbox WebApp.</p>
 
-> Awesome modern toolbox webapp.
-
-## Build Setup
+## Development
 
 ```bash
-# install dependencies
 $ npm install
-
-# serve with hot reload at localhost:3000
 $ npm run dev
-
-# build for production and launch server
-$ npm run build
-$ npm run start
-
-# generate static project
-$ npm run generate
 ```
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+## Build
+
+```bash
+$ npm install
+$ npm run generate
+```
