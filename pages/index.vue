@@ -1,23 +1,16 @@
 <template>
   <div class="container">
     <div>
-      <logo/>
+      <p align="center"><img src="~/static/icon.png" alt="Logo" width="128" height="128" style="max-width: 100%;"></p>
       <h1 class="title">
-        MoeToolbox
+        [WIP] MoeToolbox
       </h1>
       <h2 class="subtitle">
         Awesome modern toolbox webapp.
       </h2>
       <div class="links">
         <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
+          href="https://github.com/boxlab/MoeToolbox"
           target="_blank"
           class="button--grey"
         >
@@ -29,13 +22,7 @@
 </template>
 
 <script>
-  import Logo from '~/components/Logo.vue'
-
-  export default {
-    components: {
-      Logo
-    }
-  }
+  export default {}
 </script>
 
 <style>
@@ -53,14 +40,14 @@
     'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
     display: block;
     font-weight: 300;
-    font-size: 100px;
+    font-size: 50px;
     color: #35495e;
     letter-spacing: 1px;
   }
 
   .subtitle {
     font-weight: 300;
-    font-size: 42px;
+    font-size: 30px;
     color: #526488;
     word-spacing: 5px;
     padding-bottom: 15px;
